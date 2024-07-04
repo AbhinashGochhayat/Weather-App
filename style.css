@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Adjust size as needed */
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#weather-display {
+  margin-top: 20px;
+  text-align: left;
+  display: none;
+}
+
+#weather-display h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#weather-display p {
+  margin: 5px 0;
+}
